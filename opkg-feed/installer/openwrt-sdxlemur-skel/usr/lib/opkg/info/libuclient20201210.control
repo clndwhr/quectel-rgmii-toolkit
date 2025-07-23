@@ -1,0 +1,14 @@
+Package: libuclient20201210
+Version: 2023-04-13-007d9454-1
+Depends: libc, libubox20220515
+Provides: libuclient
+Source: package/libs/uclient
+SourceName: libuclient
+License: ISC
+Section: libs
+SourceDateEpoch: 1699448151
+ABIVersion: 20201210
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 8658
+Description:  HTTP/1.1 client library

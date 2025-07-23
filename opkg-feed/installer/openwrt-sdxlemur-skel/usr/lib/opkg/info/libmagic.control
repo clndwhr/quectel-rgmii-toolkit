@@ -1,0 +1,13 @@
+Package: libmagic
+Version: 5.41-1
+Depends: libc, zlib, liblzma, libbz2-1.0
+Source: feeds/packages/libs/file
+SourceName: libmagic
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1639697225
+Maintainer: Marko Ratkaj <marko.ratkaj@sartura.hr>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 60122
+Description:  File type determination library

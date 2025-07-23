@@ -1,0 +1,12 @@
+Package: libsepol
+Version: 3.3-1
+Depends: libc
+Source: package/libs/libsepol
+SourceName: libsepol
+Section: libs
+SourceDateEpoch: 1690286952
+Maintainer: Thomas Petazzoni <thomas.petazzoni@bootlin.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 246731
+Description:  Libsepol is the binary policy manipulation library. It doesn't
+ depend upon or use any of the other SELinux components.

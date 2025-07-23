@@ -1,0 +1,14 @@
+Package: curl
+Version: 8.10.0-1
+Depends: libc, libcurl4
+Source: owrt-feeds/packages/net/curl
+SourceName: curl
+License: MIT
+LicenseFiles: COPYING
+Section: net
+SourceDateEpoch: 1733820553
+CPE-ID: cpe:/a:haxx:libcurl
+Maintainer: Stan Grishin <stangri@melmac.ca>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 63662
+Description:  A client-side URL transfer utility

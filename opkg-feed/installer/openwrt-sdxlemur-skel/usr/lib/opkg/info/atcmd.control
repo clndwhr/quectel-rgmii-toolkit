@@ -1,0 +1,10 @@
+Package: atcmd
+Version: 1.0-1
+Depends: libc
+Source: owrt-qti-quectel/atcmd
+SourceName: atcmd
+Section: QUECTEL
+SourceDateEpoch: 1683198154
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 2592
+Description:  Quectel atcmd command-line program.

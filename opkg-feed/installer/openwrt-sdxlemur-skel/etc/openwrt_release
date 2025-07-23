@@ -1,0 +1,7 @@
+DISTRIB_ID='OpenWrt'
+DISTRIB_RELEASE='22.03.5'
+DISTRIB_REVISION='r20134-5f15225c1e'
+DISTRIB_TARGET='sdxlemur/generic'
+DISTRIB_ARCH='arm_cortex-a7_neon-vfpv4'
+DISTRIB_DESCRIPTION='OpenWrt 22.03.5 r20134-5f15225c1e'
+DISTRIB_TAINTS='no-all busybox override'

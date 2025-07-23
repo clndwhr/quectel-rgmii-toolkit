@@ -1,0 +1,14 @@
+Package: libpam
+Version: 1.5.1-1
+Depends: libc
+Source: owrt-feeds/packages/libs/libpam
+SourceName: libpam
+License: BSD-3c GPL
+LicenseFiles: COPYING Copyright
+Section: libs
+SourceDateEpoch: 1733820553
+CPE-ID: cpe:/a:kernel:linux-pam
+Maintainer: Nikos Mavrogiannopoulos <n.mavrogiannopoulos@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 44692
+Description:  The Linux-PAM Pluggable Authentication Modules.

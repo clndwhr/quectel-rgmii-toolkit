@@ -1,0 +1,15 @@
+[Unit]
+Description=Set up OpenWRT overlay filesystem
+DefaultDependencies=no
+Requires=qmi_shutdown_modemd.service
+After=qmi_shutdown_modemd.service
+ConditionPathExists=/usr/sbin/openwrt-overlay.sh
+
+[Service]
+Type=oneshot
+ExecStart=/usr/sbin/openwrt-overlay.sh
+RemainAfterExit=true
+
+[Install]
+WantedBy=openwrt-subsystem.target
+

@@ -1,0 +1,17 @@
+Package: busybox-selinux
+Version: 1.35.0-5
+Depends: libc, libpam, jsonfilter, libselinux
+Provides: busybox
+Source: package/utils/busybox
+SourceName: busybox-selinux
+License: GPL-2.0
+LicenseFiles: LICENSE archival/libarchive/bz/LICENSE
+Section: base
+Require-User: ntp=123:ntp=123
+SourceDateEpoch: 1723016807
+CPE-ID: cpe:/a:busybox:busybox
+Essential: yes
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 262965
+Description:  Core utilities for embedded Linux with SELinux support

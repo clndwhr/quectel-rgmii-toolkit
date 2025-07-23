@@ -1,0 +1,5 @@
+::sysinit:/etc/init.d/rcS S boot
+::shutdown:/etc/init.d/rcS K shutdown
+# avoid auto reboot by twice type ctrl+c
+#::askconsole:/usr/libexec/login.sh
+console::respawn:/usr/libexec/login.sh

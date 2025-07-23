@@ -1,0 +1,7 @@
+[Unit]
+Description=OpenWRT Subsystem Target
+Requires=openwrt-overlay.service
+After=qmi_shutdown_modemd.service openwrt-overlay.service
+
+[Install]
+WantedBy=multi-user.target

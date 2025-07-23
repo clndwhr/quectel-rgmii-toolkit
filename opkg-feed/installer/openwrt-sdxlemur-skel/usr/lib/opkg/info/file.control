@@ -1,0 +1,13 @@
+Package: file
+Version: 5.41-1
+Depends: libc, libmagic
+Source: feeds/packages/libs/file
+SourceName: file
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1639697225
+Maintainer: Marko Ratkaj <marko.ratkaj@sartura.hr>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 197422
+Description:  File type determination utility

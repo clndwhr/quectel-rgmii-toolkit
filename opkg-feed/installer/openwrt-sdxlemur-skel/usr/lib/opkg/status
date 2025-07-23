@@ -1,0 +1,295 @@
+Package: atcmd
+Version: 1.0-1
+Depends: libc
+Status: install user installed
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Time: 1733796300
+
+Package: base-files
+Version: 11-r20134-5f15225c1e
+Depends: libc, jsonfilter, openwrt-keyring
+Status: install user installed
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Time: 1733796300
+
+Package: busybox-selinux
+Version: 1.35.0-5
+Depends: libc, libpam, jsonfilter, libselinux
+Provides: busybox
+Status: install user installed
+Essential: yes
+Architecture: arm_cortex-a7_neon-vfpv4
+Conffiles:
+ /etc/syslog.conf e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Installed-Time: 1733796300
+
+Package: ca-bundle
+Version: 20211016-1
+Depends: libc
+Provides: ca-certs
+Status: install user installed
+Architecture: all
+Installed-Time: 1733796300
+
+Package: curl
+Version: 8.10.0-1
+Depends: libc, libcurl4
+Status: install user installed
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Time: 1733796300
+
+Package: dropbear
+Version: 2022.82-3
+Depends: libc
+Status: install user installed
+Architecture: arm_cortex-a7_neon-vfpv4
+Conffiles:
+ /etc/config/dropbear 0198dbc97b5a9aac76a5c6233684571ccdcc91fcb735e91c36d2b06a98158589
+ /etc/dropbear/dropbear_ed25519_host_key e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+ /etc/dropbear/dropbear_rsa_host_key e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Installed-Time: 1733796300
+Alternatives: 100:/usr/bin/scp:/usr/sbin/dropbear, 100:/usr/bin/ssh:/usr/sbin/dropbear
+
+Package: file
+Version: 5.41-1
+Depends: libc, libmagic
+Status: install user installed
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Time: 1733796300
+
+Package: jsonfilter
+Version: 2018-02-04-c7e938d6-1
+Depends: libc, libubox20220515, libjson-c5
+Status: install user installed
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Time: 1733796300
+Auto-Installed: yes
+
+Package: libbz2-1.0
+ABIVersion: -1.0
+Version: 1.0.8-1
+Depends: libc
+Provides: libbz2
+Status: install user installed
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Time: 1733796300
+
+Package: libc
+Version: 1.2.3-4
+Depends: libgcc1
+Status: install hold installed
+Essential: yes
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Time: 1733796300
+Auto-Installed: yes
+
+Package: libcurl4
+ABIVersion: 4
+Version: 8.10.0-1
+Depends: libc, libopenssl1.1, libnghttp2-14, ca-bundle
+Provides: libcurl
+Status: install user installed
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Time: 1733796300
+
+Package: libgcc1
+ABIVersion: 1
+Version: 11.2.0-4
+Provides: libgcc
+Status: install hold installed
+Essential: yes
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Time: 1733796300
+Auto-Installed: yes
+
+Package: libjson-c5
+ABIVersion: 5
+Version: 0.15-2
+Depends: libc
+Provides: libjson-c
+Status: install user installed
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Time: 1733796300
+Auto-Installed: yes
+
+Package: liblzma
+Version: 5.2.4-1
+Depends: libc, libpthread
+Status: install user installed
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Time: 1733796300
+Auto-Installed: yes
+
+Package: libmagic
+Version: 5.41-1
+Depends: libc, zlib, liblzma, libbz2-1.0
+Status: install user installed
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Time: 1733796300
+Auto-Installed: yes
+
+Package: libnghttp2-14
+ABIVersion: -14
+Version: 1.44.0-1
+Depends: libc
+Provides: libnghttp2
+Status: install user installed
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Time: 1733796300
+Auto-Installed: yes
+
+Package: libopenssl1.1
+ABIVersion: 1.1
+Version: 1.1.1t-3
+Depends: libc
+Provides: libopenssl
+Status: install user installed
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Time: 1733796300
+
+Package: libpam
+Version: 1.5.1-1
+Depends: libc
+Status: install user installed
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Time: 1733796300
+Auto-Installed: yes
+
+Package: libpcre
+Version: 8.45-2
+Depends: libc
+Status: install user installed
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Time: 1733796300
+Auto-Installed: yes
+
+Package: libpthread
+Version: 1.2.3-4
+Depends: libgcc1
+Status: install hold installed
+Essential: yes
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Time: 1733796300
+Auto-Installed: yes
+
+Package: libselinux
+Version: 3.3-2
+Depends: libc, libsepol, libpcre, musl-fts
+Status: install user installed
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Time: 1733796300
+Auto-Installed: yes
+
+Package: libsepol
+Version: 3.3-1
+Depends: libc
+Status: install user installed
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Time: 1733796300
+Auto-Installed: yes
+
+Package: libubox20220515
+ABIVersion: 20220515
+Version: 2022-05-15-d2223ef9-1
+Depends: libc
+Provides: libubox
+Status: install user installed
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Time: 1733796300
+Auto-Installed: yes
+
+Package: libuci20130104
+ABIVersion: 20130104
+Version: 2021-10-22-f84f49f0-6
+Depends: libc, libubox20220515
+Provides: libuci
+Status: install user installed
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Time: 1733796300
+Auto-Installed: yes
+
+Package: libuclient20201210
+ABIVersion: 20201210
+Version: 2023-04-13-007d9454-1
+Depends: libc, libubox20220515
+Provides: libuclient
+Status: install user installed
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Time: 1733796300
+
+Package: libustream-openssl20201210
+Version: 2022-12-08-9217ab46-2
+Depends: libc, libubox20220515, libopenssl1.1
+Provides: libustream-openssl
+Conflicts: libustream-wolfssl
+Status: install user installed
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Time: 1733796300
+
+Package: musl-fts
+Version: 1.2.7-1
+Depends: libc, libpthread
+Status: install user installed
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Time: 1733796300
+Auto-Installed: yes
+
+Package: openwrt-keyring
+Version: 2022-03-25-62471e69-3
+Depends: libc
+Provides: lede-keyring
+Status: install user installed
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Time: 1733796300
+Auto-Installed: yes
+
+Package: opkg
+Version: 2022-02-24-d038e5b6-2
+Depends: libc, uclient-fetch, libpthread, libubox20220515
+Status: install user installed
+Essential: yes
+Architecture: arm_cortex-a7_neon-vfpv4
+Conffiles:
+ /etc/opkg.conf f38c19f696ea87c0b30eb5bfeb8657237f4625e1a749c58b99f01595edfb6446
+ /etc/opkg/customfeeds.conf 61d1f3aa62fe977614ed0c2f0ad3b2ee2f7b451bfb34812071d86d31a4d43d4a
+Installed-Time: 1733796300
+
+Package: shadow-common
+Version: 4.8.1-3
+Depends: libc
+Status: install user installed
+Essential: yes
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Time: 1733796301
+
+Package: shadow-login
+Version: 4.8.1-3
+Depends: libc, shadow-common
+Status: install user installed
+Essential: yes
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Time: 1733796302
+
+Package: uci
+Version: 2021-10-22-f84f49f0-6
+Depends: libc, libuci20130104
+Status: install user installed
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Time: 1733796300
+
+Package: uclient-fetch
+Version: 2023-04-13-007d9454-1
+Depends: libc, libuclient20201210
+Provides: wget
+Status: install user installed
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Time: 1733796300
+Alternatives: 200:/usr/bin/wget:/bin/uclient-fetch
+
+Package: zlib
+Version: 1.2.11-6
+Depends: libc
+Status: install user installed
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Time: 1733796300
+

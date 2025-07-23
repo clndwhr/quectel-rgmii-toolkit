@@ -4,8 +4,7 @@ Software deployment Toolkit for Quectel RM5xxx series 5G modems utilizing an m.2
 Current Branch: **overhaul-SDXLEMUR**
 Current Status: ⚠️ **DO NOT USE OR DEPLOY/BROKEN STATE** ⚠️
 
-- Currently reworking the opkg/entware system to be more flexable
-- Reworking packages from raw to ipk instead
+- Currently creating an OpenWRT overlay sub-system
 
 Please PR to this branch instead of **SDXLEMUR** :)
 
